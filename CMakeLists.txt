@@ -14,4 +14,6 @@ add_executable(LearnCpp main.cpp
         Chap8/calc.h
         Chap8/prime.cpp
         Chap8/prime.h
+        Chap8/hifi_game.h
+        Chap8/hifi_game.cpp
 )

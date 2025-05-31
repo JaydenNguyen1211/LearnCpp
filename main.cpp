@@ -7,8 +7,9 @@
 
 //extern double calculateAndPrintBallHeight(double towerHeight, int seconds);
 //extern double getTowerHeight();
-extern bool prime_check(int x);
-using namespace std;
+//extern bool prime_check(int x);
+extern void play_game();
+//using namespace std;
 int main()
 {
 //    const double towerHeight{ getTowerHeight() };
@@ -20,8 +21,6 @@ int main()
 
 //    bool primeResult = is_prime(23);
 //    std::cout << "";
-    prime_check(23);
-    prime_check(46);
-    prime_check(5);
+    play_game();
     return 0;
 }
