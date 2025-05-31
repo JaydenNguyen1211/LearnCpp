@@ -5,8 +5,8 @@
 #include "io.h"
 
 using namespace std;
-int x;
-int y;
+static int x;
+static int y;
 void readNumber(int i) {
     cin >> x >> y;
 }

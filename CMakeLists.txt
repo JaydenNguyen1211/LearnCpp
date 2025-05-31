@@ -7,5 +7,11 @@ add_executable(LearnCpp main.cpp
         Chap1Ex/io.cpp
         Chap1Ex/io.h
         Chap4Ex/ex2.cpp
-        Chap4Ex/ex2.h
+        Chap4Ex/Ex.h
+        Chap7/Ex.cpp
+        Chap7/constant.h
+        Chap8/calculate_height_tower.cpp
+        Chap8/calc.h
+        Chap8/prime.cpp
+        Chap8/prime.h
 )

@@ -1,11 +1,27 @@
 #include <iostream>
 //#include "Chap1Ex/io.h"
-#include "Chap4Ex/ex2.h"
+//#include "Chap4Ex/ex2.h"
+//#include "Chap8/calc.h"
 
+//extern void ex2();
 
+//extern double calculateAndPrintBallHeight(double towerHeight, int seconds);
+//extern double getTowerHeight();
+extern bool prime_check(int x);
+using namespace std;
 int main()
 {
-    ex2();
+//    const double towerHeight{ getTowerHeight() };
+//
+//    int seconds { 0 };
+//    while(calculateAndPrintBallHeight(towerHeight, seconds) > 0.0) {
+//        ++seconds;
+//    }
 
+//    bool primeResult = is_prime(23);
+//    std::cout << "";
+    prime_check(23);
+    prime_check(46);
+    prime_check(5);
     return 0;
 }

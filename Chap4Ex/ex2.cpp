@@ -2,12 +2,12 @@
 // Created by Jayden Nguyen on 28/05/2025.
 //
 #include <iostream>
-#include "ex2.h"
+#include "Ex.h"
 
 double x {};
 double y {};
 char z;
-void ex2() {
+static void ex2() {
     std::cout << "Enter a double value:";
     std::cin  >> x;
     std::cout << "Enter a double value:";
