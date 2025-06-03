@@ -12,5 +12,5 @@ void readNumber(int i) {
 }
 
 void writeAnswer(int i) {
-    cout << x + y;
+    cout << i << endl;
 }
